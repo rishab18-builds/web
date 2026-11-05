@@ -1,0 +1,320 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="PaySafe - Learn how to stay safe while making digital payments.">
+    <title>PaySafe | Digital Payment Awareness</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header class="navbar">
+        <a href="#" class="logo">Pay<span>Safe.</span></a>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#scam-game">Scam Game</a>
+            <a href="#simulator">UPI Simulator</a>
+            <a href="#safety">Safety Tips</a>
+        </nav>
+
+        <button id="themeToggle" class="theme-btn">☀️</button>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <p class="tagline">YOUR DIGITAL SAFETY PARTNER</p>
+
+            <h1>Pay Smart.<br>
+                <span>Stay Safe.</span>
+            </h1>
+
+            <p class="hero-description">
+                Learn about digital payment safety, identify online
+                scams and protect yourself from payment fraud.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#scam-game" class="primary-btn">
+                    Play Scam Game →
+                </a>
+
+                <a href="#safety" class="secondary-btn">
+                    Explore Safety
+                </a>
+            </div>
+        </div>
+
+        <div class="hero-card">
+            <div class="shield-icon">🛡️</div>
+            <h2>Your Money. Your Security.</h2>
+            <p>Think Before You Pay.</p>
+            <div class="security-status">
+                <span class="status-dot"></span>
+                Security Awareness Matters
+            </div>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section class="features" id="safety">
+        <div class="section-heading">
+            <p class="tagline">WHAT YOU WILL LEARN</p>
+            <h2>Explore PaySafe Features</h2>
+            <p>Simple tools to help you understand digital payment safety.</p>
+        </div>
+
+        <div class="feature-grid">
+
+            <div class="feature-card">
+                <div class="feature-icon">🎮</div>
+                <h3>Scam Awareness Game</h3>
+                <p>Identify suspicious messages and learn to avoid payment scams.</p>
+                <a href="#scam-game">Play Game →</a>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">💳</div>
+                <h3>UPI Simulator</h3>
+                <p>Understand how a digital payment works through a safe demo.</p>
+                <a href="#simulator">Explore →</a>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">🧠</div>
+                <h3>Knowledge Quiz</h3>
+                <p>Test your digital payment safety knowledge.</p>
+                <a href="#quiz">Start Quiz →</a>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">📱</div>
+                <h3>QR Code Safety</h3>
+                <p>Learn important precautions before scanning QR codes.</p>
+                <a href="#qr-safety">Learn More →</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Scam Game -->
+    <section class="game-section" id="scam-game">
+        <div class="section-heading">
+            <p class="tagline">INTERACTIVE LEARNING</p>
+            <h2>Can You Spot The Scam?</h2>
+            <p>Test your ability to identify suspicious payment messages.</p>
+        </div>
+
+        <div class="game-container">
+            <div id="game-content">
+                <p class="game-label">SCAM DETECTION CHALLENGE</p>
+                <h3>Ready to test your awareness?</h3>
+                <p>Read payment messages carefully and identify suspicious ones.</p>
+                <button id="startGame" class="primary-btn">
+                    Start Game →
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- UPI Simulator -->
+    <section class="simulator-section" id="simulator">
+        <div class="section-heading">
+            <p class="tagline">SAFE LEARNING DEMO</p>
+            <h2>UPI Payment Simulator</h2>
+            <p>Practice understanding a payment flow without real money.</p>
+        </div>
+
+        <div class="simulator-card">
+            <div class="feature-icon">💸</div>
+            <h3>Demo Payment</h3>
+            <p>This is an educational simulation. No actual transaction will happen.</p>
+            <button id="openSimulator" class="primary-btn">
+                Try Demo →
+            </button>
+            <div id="simulator-result"></div>
+        </div>
+    </section>
+
+    <!-- Quiz -->
+    <section class="quiz-section" id="quiz">
+        <div class="section-heading">
+            <p class="tagline">TEST YOUR KNOWLEDGE</p>
+            <h2>Digital Safety Quiz</h2>
+            <p>Check how much you know about online payment safety.</p>
+        </div>
+
+        <div class="quiz-card">
+            <h3>Are you ready for the challenge?</h3>
+            <p>10 questions will test your digital payment awareness.</p>
+            <button id="startQuiz" class="primary-btn">Start Quiz →</button>
+            <div id="quiz-content"></div>
+        </div>
+    </section>
+
+<!-- ANIMATED STATISTICS -->
+<section class="stats-section" id="statistics">
+
+    <div class="section-heading">
+        <p class="tagline">PAYSAFE DASHBOARD</p>
+        <h2>Digital Payment Awareness</h2>
+        <p>Learn important facts about digital payment security.</p>
+    </div>
+
+    <div class="stats-grid">
+
+        <div class="stat-card">
+            <div class="stat-icon">🛡️</div>
+            <h2 class="counter" data-target="100">0</h2>
+            <p>Awareness Matters</p>
+        </div>
+
+        <div class="stat-card">
+            <div class="stat-icon">🔐</div>
+            <h2 class="counter" data-target="4">0</h2>
+            <p>Important Safety Rules</p>
+        </div>
+
+        <div class="stat-card">
+            <div class="stat-icon">📱</div>
+            <h2 class="counter" data-target="10">0</h2>
+            <p>Quiz Questions</p>
+        </div>
+
+        <div class="stat-card">
+            <div class="stat-icon">🎯</div>
+            <h2 class="counter" data-target="5">0</h2>
+            <p>Learning Features</p>
+        </div>
+
+    </div>
+
+    <p class="stats-note">
+        These are PaySafe project learning metrics, not live banking statistics.
+    </p>
+
+</section>
+
+<!-- DOWNLOAD SAFETY CHECKLIST -->
+<section class="checklist-section" id="checklist">
+
+    <div class="checklist-card">
+
+        <div class="checklist-icon">📋</div>
+
+
+<p class="tagline">YOUR DIGITAL SAFETY GUIDE</p>
+
+<h2>Stay Safe With Every Payment</h2>
+
+<p>
+    Download your free safety checklist and follow
+    simple steps to protect your digital payments.
+</p>
+
+<button id="downloadChecklist" class="primary-btn">
+    ⬇ Download Safety Checklist
+</button>
+
+<p class="checklist-note">
+    Free educational checklist for everyone.
+</p>
+
+</div>
+        
+</section>
+
+    <!-- QR Safety -->
+    <section class="qr-section" id="qr-safety">
+        <div class="section-heading">
+            <p class="tagline">STAY ALERT</p>
+            <h2>QR Code Safety Guide</h2>
+            <p>Remember these safety rules before making digital payments.</p>
+        </div>
+
+        <div class="safety-grid">
+            <div class="safety-card">
+                <span>🔍</span>
+                <h3>Check the Receiver</h3>
+                <p>Always verify the receiver's name before approving payment.</p>
+            </div>
+
+            <div class="safety-card">
+                <span>🔐</span>
+                <h3>Never Share PIN</h3>
+                <p>Never share your UPI PIN, OTP or confidential details.</p>
+            </div>
+
+            <div class="safety-card">
+                <span>⚠️</span>
+                <h3>Be Careful</h3>
+                <p>Scanning a QR code to receive money is not required.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <a href="#" class="logo">Pay<span>Safe.</span></a>
+        <p>Learn Today. Stay Safe Tomorrow.</p>
+        <p class="copyright">
+            © 2026 PaySafe | Digital Payment Awareness Project
+        </p>
+
+<!-- ABOUT THE DEVELOPER -->
+<section class="developer-section" id="about">
+    <div class="developer-card">
+        <span class="developer-label">THE PERSON BEHIND PAYSAFE</span>
+
+        <h2>About the Developer</h2>
+
+        <h3>Rishab Kripashankar Sharma</h3>
+
+        <p class="developer-role">
+            First Year B.Tech Student | Artificial Intelligence & Data Science
+        </p>
+
+        <div class="developer-details">
+            <div>
+                <span>College</span>
+                <strong>Terna Engineering College</strong>
+            </div>
+
+            <div>
+                <span>Academic Year</span>
+                <strong>2026–2027</strong>
+            </div>
+
+            <div>
+                <span>Project</span>
+                <strong>PaySafe – Digital Payment Awareness</strong>
+            </div>
+
+            <div>
+                <span>Technologies Used</span>
+                <strong>HTML, CSS & JavaScript</strong>
+            </div>
+        </div>
+
+        <p class="developer-message">
+            This project aims to spread awareness about digital payment
+            safety and help people identify online payment scams.
+        </p>
+
+        <div class="developer-thanks">
+            Designed and Developed by Rishab Kripashankar Sharma
+        </div>
+    </div>
+</section>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
